@@ -4,7 +4,7 @@ import { ReactTyped } from "react-typed";
 const Banner = () => {
   return (
     <div className="bg-[#2699fb] py-[100px] ">
-      <div className="max-w-[1240px] mx-auto my-[130px] text-center font-bold">
+      <div className="max-w-[1240px] mx-auto my-[50px] text-center font-bold">
         <div className=" md:text-2xl mt-[-60px]">Welcome to </div>
         <div className="text-white text-[30px] md:text-6xl mt-4">
           Own Services...
@@ -20,6 +20,9 @@ const Banner = () => {
           />
           {/* <span>Only Here...</span> */}
         </div>
+        <button className="bg-black text-white p-3 mt-20 rounded">
+          Get Started
+        </button>
       </div>
     </div>
   );

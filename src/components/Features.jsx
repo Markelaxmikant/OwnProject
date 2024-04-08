@@ -17,7 +17,7 @@ const Features = () => {
           Minus nulla perspiciatis excepturi suscipit voluptate dignissimos
           fugiat accusantium voluptatem beatae! Lorem ipsum dolor
         </p>
-        <button className="w-[30%] inline align-center bg-black text-white p-3 mt-3 rounded">
+        <button className="w-[50%] md:w-[40%] inline align-center bg-black text-white p-2 mt-3 rounded">
           Get Started
         </button>
       </div>
